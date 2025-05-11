@@ -109,7 +109,74 @@ body {
   .card2{
     background-color: white;
     height: 588px;
+    font-family: "Roboto", sans-serif;
+  
+
   } 
+  .card2 .header ul li{
+    list-style: none;
+  }
+  .card2 .header ul li p {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 30px;
+    color: gray;
+  }
+
+  .card2 .header ul li i{
+    color: #009688;
+    font-size: 30px;
+  }
+  .card2 .work h1{
+    color: gray;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -25px;
+  }
+
+
+  .card2 .work .date ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: -25px;
+  }
+
+  .card2 .work .date ul li i{
+    color: #009688;
+    font-size: 20px;
+  }
+
+  .card2 .work .date ul li p {
+       display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #009688;
+  }
+  .card2 .work .date ul li p a{
+    color: white;
+    background-color: #009688;
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+  .card2 .work .article {
+    width: 90%;
+    margin:  0 auto;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  .card2 .work .line {
+     border-bottom: 1px solid #F1F1F1;
+     width: 90%;
+     margin:  0 auto;
+}
+
+ .works{
+  margin-top: 40px;
+ }
+
+
   
   .card3 {
   
@@ -126,6 +193,11 @@ body {
     .side-column {
       grid-row: auto;
     }
+
+    .card2{
+      height: 650px;
+    }
+
   }
   
 
