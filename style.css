@@ -182,7 +182,69 @@ body {
   
     background-color: white;
     height: 544px;
+    font-family: "Roboto", sans-serif;
   }
+
+  .card3 .header ul li{
+    list-style: none;
+  }
+  .card3 .header ul li p{
+     display: inline-block;
+    margin-left: 25px;
+    font-size: 30px;
+    color: gray;
+  }
+  .card3 .header ul li i{
+    color: #009688;
+    font-size: 30px;
+  }
+
+  .card3 .work h1{
+    color: gray;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -25px;
+  }
+
+
+  .card3 .work .date ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: -25px;
+  }
+
+  .card3 .work .date ul li i{
+    color: #009688;
+    font-size: 20px;
+  }
+
+  .card3 .work .date ul li p {
+       display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #009688;
+  }
+  .card3 .work .date ul li p a{
+    color: white;
+    background-color: #009688;
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+  .card3 .work .article {
+    width: 90%;
+    margin:  0 auto;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  .card3 .work .line {
+     border-bottom: 1px solid #F1F1F1;
+     width: 90%;
+     margin:  0 auto;
+}
+
+
   
 
   @media (max-width: 768px) {
